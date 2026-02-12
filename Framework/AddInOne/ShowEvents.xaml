@@ -29,8 +29,9 @@
             <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
+                <!--<extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Framework;component\Themes\Default.xaml"/>-->
+				<extensions:DesignOnlyResourceDictionary Source="pack://application:,,,/ArcGIS.Desktop.Extensions;component\Themes\Default.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid Height="20">
